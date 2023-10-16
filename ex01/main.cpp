@@ -6,16 +6,17 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/16 15:51:42 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/16 19:08:40 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int main(void)
 {
 	ClapTrap	one("Robot");
 	ClapTrap	two("Toaster");
+	ScavTrap	three("Scav");
 
 	while (one.getEnergyPoints() > 0)
 	{
