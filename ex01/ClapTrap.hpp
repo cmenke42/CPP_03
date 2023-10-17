@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/16 19:37:01 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 15:29:23 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,28 +21,26 @@ class ClapTrap
 {
 	public:
 		ClapTrap(void);
-		ClapTrap(std::string name);
+		ClapTrap(const std::string name);
 		ClapTrap(const ClapTrap& src);
-		~ClapTrap(void);
+		virtual ~ClapTrap(void);
 
 		ClapTrap& operator=(const ClapTrap& copy);
 
-		void attack(const std::string& target);
-		void takeDamage(unsigned int amount);
-		void beRepaired(unsigned int amount);
-
-		std::string		getName(void) const;
-		unsigned int	getHitPoints(void) const;
-		unsigned int	getEnergyPoints(void) const;
+		virtual void	attack(const std::string& target);
+		void 			takeDamage(unsigned int amount);
+		void			beRepaired(unsigned int amount);
 		unsigned int	getAttackDamage(void) const;
-		std::string		getRobotType(void) const;
 
-	private:
+	protected:
 		std::string		_name;
 		unsigned int	_hitPoints;
 		unsigned int	_energyPoints;
 		unsigned int	_attackDamage;
 		std::string		_robotType;
+
+		bool			isAlive(void) const;
+		bool			hasEnergy(void) const;
 };
 
 #endif //CLAPTRAP_HPP

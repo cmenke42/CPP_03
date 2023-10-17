@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 14:17:52 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 14:48:25 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,14 @@ ClapTrap::~ClapTrap(void)
 
 ClapTrap&	ClapTrap::operator=(const ClapTrap& rhs)
 {
-	std::cout << this->_robotType << this->_name << " getting assigned!" << std::endl;
+	std::cout << this->_robotType << this->_name << "  assignemnt operator called!" << std::endl;
 	if(this == &rhs)
 		return (*this);
 	this->_name = rhs._name;
 	this->_hitPoints = rhs._hitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
+	this->_robotType = rhs._robotType;
 	return (*this);
 }
 
