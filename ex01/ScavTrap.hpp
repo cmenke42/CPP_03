@@ -6,11 +6,13 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 15:30:41 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 19:28:55 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
+
+#define SCAV_TRAP_TYPE "ScavTrap "
 
 class ScavTrap : public ClapTrap
 {
@@ -23,10 +25,7 @@ class ScavTrap : public ClapTrap
 		ScavTrap& operator=(const ScavTrap& copy);
 
 		void attack(const std::string& target);
-		
 		void guardGate();
-
-	private:
 	
 };
 
