@@ -6,9 +6,12 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 19:28:55 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 20:34:01 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#ifndef SCAV_TRAP_HPP
+# define SCAV_TRAP_HPP
 
 #include "ClapTrap.hpp"
 
@@ -29,14 +32,4 @@ class ScavTrap : public ClapTrap
 	
 };
 
-// ScavTrap will use the attributes of ClapTrap (update ClapTrap in consequence) and
-// must initialize them to:
-// • Name, which is passed as parameter to a constructor
-// • Hit points (100), represent the health of the ClapTrap
-// • Energy points (50)
-// • Attack damage (20)
-// ScavTrap will also have its own special capacity:
-// void guardGate();
-// This member function will display a message informing that ScavTrap is now in Gate
-// keeper mode.
-// Don’t forget to add more tests to your program
+#endif //SCAV_TRAP_HPP

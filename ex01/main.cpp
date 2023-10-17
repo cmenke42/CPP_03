@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 19:40:41 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 20:38:39 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,23 @@
 
 int main(void)
 {
-	ClapTrap	one("Robot");
-	ClapTrap	two("Toaster");
-	ScavTrap	three("Scav");
+	ClapTrap	one("Clappi");
+	ScavTrap	two("Scavvi_1");
+	ScavTrap	three("Scavvi_2");
 
-	three.attack("Robot");
-	one.takeDamage(three.getAttackDamage());
+	std::cout << std::endl;
+	for (int i; i <= 51; i++)
+	{
+		three.attack("Clappi");
+		if (i <= 50)
+			one.takeDamage(three.getAttackDamage());
+	}
+	std::cout << std::endl;
 	three.guardGate();
-	three.beRepaired(100000);
-
+	std::cout << std::endl;
+	two.attack("Scavvi_1");
+	two.takeDamage(two.getAttackDamage());
+	two.beRepaired(100000);
+	std::cout << std::endl;
 	return (0);
 }

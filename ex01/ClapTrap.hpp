@@ -6,12 +6,12 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 19:38:44 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 20:34:29 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLAPTRAP_HPP
-# define CLAPTRAP_HPP
+#ifndef CLAP_TRAP_HPP
+# define CLAP_TRAP_HPP
 
 #include <iostream>
 #include <string>
@@ -22,7 +22,7 @@ class ClapTrap
 {
 	public:
 		ClapTrap(void);
-		ClapTrap(std::string name);
+		ClapTrap(const std::string name);
 		ClapTrap(const ClapTrap& src);
 		virtual ~ClapTrap(void);
 
@@ -40,9 +40,9 @@ class ClapTrap
 		unsigned int	_attackDamage;
 		unsigned int	_maxHitPoints;
 
-		bool			isAlive(void) const;
-		bool			hasEnergy(void) const;
+		bool			isAlive(const std::string robotType) const;
+		bool			hasEnergy(const std::string robotType) const;
 
 };
 
-#endif //CLAPTRAP_HPP
+#endif //CLAP_TRAP_HPP

@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 19:43:16 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 20:35:08 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ ClapTrap::ClapTrap(void)
 	std::cout << CLAP_TRAP_TYPE << " has been created! - Default" << std::endl;
 }
 
-ClapTrap::ClapTrap(std::string name)
+ClapTrap::ClapTrap(const std::string name)
 		: _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
 	this->_maxHitPoints = this->_hitPoints;
@@ -52,7 +52,7 @@ ClapTrap&	ClapTrap::operator=(const ClapTrap& rhs)
 
 void	ClapTrap::attack(const std::string& target)
 {
-	if (!this->isAlive() || !this->hasEnergy())
+	if (!this->isAlive(CLAP_TRAP_TYPE) || !this->hasEnergy(CLAP_TRAP_TYPE))
 	{
 		std::cout << CLAP_TRAP_TYPE << this->_name << " can't attack." << std::endl;
 		return ;
@@ -64,11 +64,8 @@ void	ClapTrap::attack(const std::string& target)
 
 void	ClapTrap::takeDamage(unsigned int ammount)
 {
-	if (!this->isAlive())
-	{
-		std::cout << CLAP_TRAP_TYPE << this->_name << " is already Dead." << std::endl;
+	if (!this->isAlive(CLAP_TRAP_TYPE))
 		return ;
-	}
 	else if (this->_hitPoints < ammount)
 		this->_hitPoints = 0;
 	else
@@ -79,7 +76,7 @@ void	ClapTrap::takeDamage(unsigned int ammount)
 
 void	ClapTrap::beRepaired(unsigned int ammount)
 {
-	if (!this->isAlive() || !this->hasEnergy())
+	if (!this->isAlive(CLAP_TRAP_TYPE) || !this->hasEnergy(CLAP_TRAP_TYPE))
 	{
 		std::cout << CLAP_TRAP_TYPE << this->_name << " can't be repaired." << std::endl;
 		return ;
@@ -93,19 +90,19 @@ void	ClapTrap::beRepaired(unsigned int ammount)
 	this->_energyPoints -= 1;
 }
 
-bool ClapTrap::isAlive() const
+bool ClapTrap::isAlive(const std::string robotType) const
 {
 	if (this->_hitPoints > 0)
 		return (true);
-	std::cout << CLAP_TRAP_TYPE << this->_name << " is already dead!" << std::endl;
+	std::cout << robotType << this->_name << " is already dead!" << std::endl;
 	return (false);
 }
 
-bool ClapTrap::hasEnergy() const
+bool ClapTrap::hasEnergy(const std::string robotType) const
 {
 	if (this->_energyPoints > 0)
 		return (true);
-	std::cout << CLAP_TRAP_TYPE << this->_name << " is out of energy!" << std::endl;
+	std::cout << robotType << this->_name << " is out of energy!" << std::endl;
 	return (false);
 }
 
