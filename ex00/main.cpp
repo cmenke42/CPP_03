@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/16 15:51:42 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 14:17:31 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,29 @@ int main(void)
 	ClapTrap	one("Robot");
 	ClapTrap	two("Toaster");
 
-	while (one.getEnergyPoints() > 0)
-	{
-		one.attack(two.getName());
-		two.takeDamage(0);
-	}
-	one.attack(two.getName());
-	two.attack(one.getName());
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+	one.attack("Toaster");
+	two.takeDamage(0);
+
+	one.attack("Toaster");
+	two.attack("Robot");
 	one.takeDamage(0);
 	one.beRepaired(10);
 	two.beRepaired(2);

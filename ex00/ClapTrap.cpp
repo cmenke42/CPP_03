@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/16 19:05:04 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 14:17:52 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,108 +15,93 @@
 ClapTrap::ClapTrap(void)
 		: _name("ClapTrap"), _hitPoints(10), _energyPoints(10), _attackDamage(0), _robotType("ClapTrap ")
 {
-	std::cout << this->getRobotType() << " has been created! - Default" << std::endl;
+	std::cout << this->_robotType << " has been created! - Default" << std::endl;
 }
 
 ClapTrap::ClapTrap(std::string name)
 		: _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0), _robotType("ClapTrap ")
 {
-	std::cout << this->getRobotType() << this->_name << " has been created! - Name Constructor" << std::endl;
+	std::cout << this->_robotType << this->_name << " has been created! - Name Constructor" << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap& src)
 {
 	*this = src;
-	std::cout << this->getRobotType() << this->_name << " has been created! - Copy Constructor" << std::endl;
+	std::cout << this->_robotType << this->_name << " has been created! - Copy Constructor" << std::endl;
 }
 
 ClapTrap::~ClapTrap(void)
 {
-	std::cout << this->getRobotType() << this->_name << " has been destroyed!" << std::endl;
+	std::cout << this->_robotType << this->_name << " has been destroyed!" << std::endl;
 }
 
 ClapTrap&	ClapTrap::operator=(const ClapTrap& rhs)
 {
+	std::cout << this->_robotType << this->_name << " getting assigned!" << std::endl;
 	if(this == &rhs)
 		return (*this);
-	this->_name = rhs.getName();
-	this->_hitPoints = rhs.getHitPoints();
-	this->_energyPoints = rhs.getEnergyPoints();
-	this->_attackDamage = rhs.getAttackDamage();
+	this->_name = rhs._name;
+	this->_hitPoints = rhs._hitPoints;
+	this->_energyPoints = rhs._energyPoints;
+	this->_attackDamage = rhs._attackDamage;
 	return (*this);
 }
 
 void	ClapTrap::attack(const std::string& target)
 {
-	if (this->getEnergyPoints() < 1)
+	if (!this->isAlive() || !this->hasEnergy())
 	{
-		std::cout << this->getRobotType() << this->getName() << " is out of energy! Can't attack." << std::endl;
+		std::cout << this->_robotType << this->_name << " can't attack." << std::endl;
 		return ;
 	}
-	std::cout << this->getRobotType() << this->getName() << " attacks " << target;
-	std::cout << " causing " << this->getAttackDamage() << " points of damage!" << std::endl;
+	std::cout << this->_robotType << this->_name << " attacks " << target;
+	std::cout << " causing " << this->_attackDamage << " points of damage!" << std::endl;
 	this->_energyPoints--;
-
 }
 
 void	ClapTrap::takeDamage(unsigned int ammount)
 {
-	if (this->getHitPoints() < 1)
+	if (!this->isAlive())
 	{
-		std::cout << this->getRobotType() << this->getName() << " is already dead!" << std::endl;
+		std::cout << this->_robotType << this->_name << " is already Dead." << std::endl;
 		return ;
 	}
-	else if (this->getHitPoints() < ammount)
+	else if (this->_hitPoints < ammount)
 		this->_hitPoints = 0;
 	else
 		this->_hitPoints -= ammount;
-	std::cout << this->getRobotType() << this->getName() << " takes ";
-	std::cout << ammount << " points of damage!" << std::endl;
+	std::cout << this->_robotType << this->_name << " takes ";
+	std::cout << ammount << " points of damage! Now has " << this->_hitPoints << " hit Points." << std::endl;
 }
 
 void	ClapTrap::beRepaired(unsigned int ammount)
 {
-	if (this->getEnergyPoints() < 1)
+	if (!this->isAlive() || !this->hasEnergy())
 	{
-		std::cout << this->getRobotType() << this->getName() << " is out of energy! Can't be repaired." << std::endl;
+		std::cout << this->_robotType << this->_name << " can't be repaired." << std::endl;
 		return ;
 	}
-	if (this->getHitPoints() < 1)
-	{
-		std::cout << this->getRobotType() << this->getName() << " is already dead! Can't be repaired." << std::endl;
-		return ;
-	}
-	else if (static_cast<long>(this->getHitPoints()) + ammount > std::numeric_limits<unsigned int>::max())
-		this->_hitPoints = std::numeric_limits<unsigned int>::max();
+	else if (ammount > 10 || this->_hitPoints + ammount > 10)
+		this->_hitPoints = 10;
 	else
 		this->_hitPoints += ammount;
-	std::cout << this->getRobotType() << this->getName() << " is repaired for ";
-	std::cout << ammount << " points! ";
-	std::cout << "Now has " << this->getHitPoints() << " hit points" << std::endl;
+	std::cout << this->_robotType << this->_name << " heals " << ammount << " points! ";
+	std::cout << "Now has " << this->_hitPoints << " hit points" << std::endl;
 	this->_energyPoints -= 1;
 }
 
-std::string	ClapTrap::getName(void) const
+bool ClapTrap::isAlive() const
 {
-	return (this->_name);
+	if (this->_hitPoints > 0)
+		return (true);
+	std::cout << this->_robotType << this->_name << " is already dead!" << std::endl;
+	return (false);
 }
 
-unsigned int	ClapTrap::getHitPoints(void) const
+bool ClapTrap::hasEnergy() const
 {
-	return (this->_hitPoints);
-}
-
-unsigned int	ClapTrap::getEnergyPoints(void) const
-{
-	return (this->_energyPoints);
-}
-
-unsigned int	ClapTrap::getAttackDamage(void) const
-{
-	return (this->_attackDamage);
-}
-
-std::string	ClapTrap::getRobotType(void) const
-{
-	return (this->_robotType);
+	if (this->_energyPoints > 0)
+		return (true);
+	std::cout << this->_robotType << this->_name << " is out of energy!" << std::endl;
+	return (false);
 }

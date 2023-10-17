@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/16 19:03:22 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 14:13:18 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,18 +31,15 @@ class ClapTrap
 		void takeDamage(unsigned int amount);
 		void beRepaired(unsigned int amount);
 
-		std::string		getName(void) const;
-		unsigned int	getHitPoints(void) const;
-		unsigned int	getEnergyPoints(void) const;
-		unsigned int	getAttackDamage(void) const;
-		std::string		getRobotType(void) const;
-
 	private:
 		std::string		_name;
 		unsigned int	_hitPoints;
 		unsigned int	_energyPoints;
 		unsigned int	_attackDamage;
 		std::string		_robotType;
+
+		bool			isAlive(void) const;
+		bool			hasEnergy(void) const;
 };
 
 #endif //CLAPTRAP_HPP
