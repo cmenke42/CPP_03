@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 20:42:07 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/17 20:33:25 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,16 @@ class ClapTrap
 		ClapTrap(void);
 		ClapTrap(const std::string name);
 		ClapTrap(const ClapTrap& src);
-		~ClapTrap(void);
+		virtual ~ClapTrap(void);
 
 		ClapTrap& operator=(const ClapTrap& copy);
 
-		void	attack(const std::string& target);
+		virtual void	attack(const std::string& target);
 		void			takeDamage(unsigned int amount);
 		void			beRepaired(unsigned int amount);
 		unsigned int	getAttackDamage(void) const;
 
-	private:
+	protected:
 		std::string		_name;
 		unsigned int	_hitPoints;
 		unsigned int	_energyPoints;
