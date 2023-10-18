@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 10:09:14 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/18 10:27:28 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/18 14:18:33 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,10 @@ class DiamondTrap : public ScavTrap, public FragTrap
 		DiamondTrap& operator=(const DiamondTrap& copy);
 		
 		void attack(const std::string& target);
-		// This member function will display both its name and its ClapTrap name.
 		void whoAmI(void);
 	private:
 		std::string		_name;
 		
 };
-
 
 #endif /* DIAMOND_TRAP_HPP */

@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 20:35:08 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/18 14:36:34 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ ClapTrap::ClapTrap(void)
 		: _name("ClapTrap"), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
 	this->_maxHitPoints = this->_hitPoints;
-	std::cout << CLAP_TRAP_TYPE << " has been created! - Default" << std::endl;
+	std::cout << CLAP_TRAP_TYPE << "has been created! - Default" << std::endl;
 }
 
 ClapTrap::ClapTrap(const std::string name)

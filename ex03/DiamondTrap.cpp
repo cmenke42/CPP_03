@@ -18,6 +18,7 @@ DiamondTrap::DiamondTrap(void) : ClapTrap(), ScavTrap(), FragTrap()
 	this->_energyPoints = 50;
 	this->_attackDamage = 30;
 	this->_maxHitPoints = this->_hitPoints;
+	this->DiamondTrap::_name = "DiamondTrap";
 	std::cout << DIAMOND_TRAP_TYPE << " has been created! - Default" << std::endl;
 }
 
@@ -27,6 +28,7 @@ DiamondTrap::DiamondTrap(const std::string name) : ClapTrap(name + "_clap_name")
 	this->_energyPoints = 50;
 	this->_attackDamage = 30;
 	this->_maxHitPoints = this->_hitPoints;
+	this->DiamondTrap::_name = name;
 	std::cout << DIAMOND_TRAP_TYPE << name << " has been created! - Name Constructor" << std::endl;
 }
 
@@ -62,5 +64,5 @@ void	DiamondTrap::attack(const std::string& target)
 
 void	DiamondTrap::whoAmI(void)
 {
-	std::cout << DIAMOND_TRAP_TYPE << this->DiamondTrap::_name << " and my ClapTrap name is " << this->ClapTrap::_name << std::endl;
+	std::cout << DIAMOND_TRAP_TYPE << this->DiamondTrap::_name << " has the ClapTrap name " << this->ClapTrap::_name << std::endl;
 }
