@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 20:33:14 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/18 10:12:06 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,13 @@
 
 #define FRAG_TRAP_TYPE "FragTrap "
 
-class FragTrap : public ClapTrap
+class FragTrap : virtual public ClapTrap
 {
 	public:
 		FragTrap(void);
 		FragTrap(const std::string name);
 		FragTrap(const FragTrap& src);
-		~FragTrap(void);
+		virtual ~FragTrap(void);
 
 		FragTrap& operator=(const FragTrap& copy);
 
