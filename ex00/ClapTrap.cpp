@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/18 14:36:38 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/24 20:11:59 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ ClapTrap::~ClapTrap(void)
 
 ClapTrap&	ClapTrap::operator=(const ClapTrap& rhs)
 {
-	std::cout << CLAP_TRAP_TYPE << this->_name << "  assignemnt operator called!" << std::endl;
+	std::cout << CLAP_TRAP_TYPE << this->_name << " assignemnt operator called!" << std::endl;
 	if(this == &rhs)
 		return (*this);
 	this->_name = rhs._name;
@@ -54,7 +54,7 @@ void	ClapTrap::attack(const std::string& target)
 {
 	if (!this->isAlive(CLAP_TRAP_TYPE) || !this->hasEnergy(CLAP_TRAP_TYPE))
 	{
-		std::cout << CLAP_TRAP_TYPE << this->_name << " can't attack." << std::endl;
+		std::cout << " Can't attack." << std::endl;
 		return ;
 	}
 	std::cout << CLAP_TRAP_TYPE << this->_name << " attacks " << target;
@@ -65,8 +65,11 @@ void	ClapTrap::attack(const std::string& target)
 void	ClapTrap::takeDamage(unsigned int ammount)
 {
 	if (!this->isAlive(CLAP_TRAP_TYPE))
+	{
+		std::cout << " Can't take any more damage." << std::endl;
 		return ;
-	else if (this->_hitPoints < ammount)
+	}
+	if (this->_hitPoints <= ammount)
 		this->_hitPoints = 0;
 	else
 		this->_hitPoints -= ammount;
@@ -78,23 +81,23 @@ void	ClapTrap::beRepaired(unsigned int ammount)
 {
 	if (!this->isAlive(CLAP_TRAP_TYPE) || !this->hasEnergy(CLAP_TRAP_TYPE))
 	{
-		std::cout << CLAP_TRAP_TYPE << this->_name << " can't be repaired." << std::endl;
+		std::cout << " Can't be repaired." << std::endl;
 		return ;
 	}
-	else if (ammount >= this->_maxHitPoints || this->_hitPoints + ammount >= this->_maxHitPoints)
-		this->_hitPoints = _maxHitPoints;
+	if (this->_maxHitPoints - this->_hitPoints <= ammount)
+		this->_hitPoints = this->_maxHitPoints;
 	else
 		this->_hitPoints += ammount;
 	std::cout << CLAP_TRAP_TYPE << this->_name << " heals " << ammount << " points! ";
 	std::cout << "Now has " << this->_hitPoints << " hit points" << std::endl;
-	this->_energyPoints -= 1;
+	this->_energyPoints--;
 }
 
 bool ClapTrap::isAlive(const std::string robotType) const
 {
 	if (this->_hitPoints > 0)
 		return (true);
-	std::cout << robotType << this->_name << " is already dead!" << std::endl;
+	std::cout << robotType << this->_name << " is already dead!";
 	return (false);
 }
 
@@ -102,7 +105,7 @@ bool ClapTrap::hasEnergy(const std::string robotType) const
 {
 	if (this->_energyPoints > 0)
 		return (true);
-	std::cout << robotType << this->_name << " is out of energy!" << std::endl;
+	std::cout << robotType << this->_name << " is out of energy!";
 	return (false);
 }
 

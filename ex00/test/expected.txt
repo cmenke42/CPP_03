@@ -1,0 +1,50 @@
+----Constructing ClapTraps----
+ClapTrap Clappi_1 has been created! - Name Constructor
+ClapTrap Clappi_2 has been created! - Name Constructor
+ClapTrap Clappi_3 has been created! - Name Constructor
+
+----Clappi_1 attacks Clappi_2: 12 times----
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 attacks Clappi_2 causing 0 points of damage!
+ClapTrap Clappi_2 takes 0 points of damage! Now has 10 hit Points.
+ClapTrap Clappi_1 is out of energy! Can't attack.
+ClapTrap Clappi_1 is out of energy! Can't attack.
+
+----Clappi_2 attacks Clappi_1: 1 time----
+ClapTrap Clappi_2 attacks Clappi_1 causing 0 points of damage!
+ClapTrap Clappi_1 takes 0 points of damage! Now has 10 hit Points.
+
+----Clappi_1 and Clappi_2 getting repaired----
+ClapTrap Clappi_1 is out of energy! Can't be repaired.
+ClapTrap Clappi_2 heals 2 points! Now has 10 hit points
+ClapTrap Clappi_2 takes 9 points of damage! Now has 1 hit Points.
+ClapTrap Clappi_2 heals 4 points! Now has 5 hit points
+ClapTrap Clappi_2 takes 10 points of damage! Now has 0 hit Points.
+ClapTrap Clappi_2 is already dead! Can't be repaired.
+
+----Testing max values----
+ClapTrap Clappi_3 heals 4294967295 points! Now has 10 hit points
+ClapTrap Clappi_3 takes 4294967295 points of damage! Now has 0 hit Points.
+ClapTrap Clappi_3 is already dead! Can't be repaired.
+
+----Destroying ClapTraps----
+ClapTrap Clappi_3 has been destroyed!
+ClapTrap Clappi_2 has been destroyed!
+ClapTrap Clappi_1 has been destroyed!
