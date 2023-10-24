@@ -1,0 +1,257 @@
+----Constructing----
+ClapTrap Clappi_1 has been created! - Name Constructor
+ClapTrap Clappi_2 has been created! - Name Constructor
+ClapTrap Fraggi_1 has been created! - Name Constructor
+FragTrap Fraggi_1 has been created! - Name Constructor
+ClapTrap Fraggi_2 has been created! - Name Constructor
+FragTrap Fraggi_2 has been created! - Name Constructor
+ClapTrap Fraggi_3 has been created! - Name Constructor
+FragTrap Fraggi_3 has been created! - Name Constructor
+
+----Fraggi_1 attacks Clappi_1: 101 times----
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 takes 30 points of damage! Now has 0 hit Points.
+
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+FragTrap Fraggi_2 attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+
+FragTrap Fraggi_2 is out of energy! Can't attack.
+FragTrap Fraggi_2 is out of energy! Can't attack.
+
+----Fraggi_1 attacks Fraggi_2: 1 time----
+FragTrap Fraggi_1 attacks Fraggi_2 causing 30 points of damage!
+ClapTrap Fraggi_2 takes 30 points of damage! Now has 70 hit Points.
+
+----Fraggi_1 and Fraggi_2 getting repaired----
+ClapTrap Fraggi_2 is out of energy! Can't be repaired.
+ClapTrap Fraggi_1 takes 40 points of damage! Now has 60 hit Points.
+ClapTrap Fraggi_1 heals 10 points! Now has 70 hit points
+
+----Testing max values----
+ClapTrap Fraggi_1 heals 4294967295 points! Now has 100 hit points
+ClapTrap Fraggi_1 takes 4294967295 points of damage! Now has 0 hit Points.
+ClapTrap Fraggi_1 is already dead! Can't be repaired.
+ClapTrap Clappi_2 heals 4294967295 points! Now has 10 hit points
+ClapTrap Clappi_2 takes 4294967295 points of damage! Now has 0 hit Points.
+ClapTrap Clappi_2 is already dead! Can't be repaired.
+
+----Fraggi_* high fives----
+FragTrap Fraggi_1 is already dead! Can't high five.
+FragTrap Fraggi_2 is out of energy! Can't high five.
+FragTrap Fraggi_3 high five guys.
+FragTrap Fraggi_3 high five guys.
+
+----Tests for virtual functions----
+-Clappi_ptr = new ScavTrap("newFraggi");-
+ClapTrap newFraggi has been created! - Name Constructor
+FragTrap newFraggi has been created! - Name Constructor
+FragTrap newFraggi attacks Fraggi_3 causing 30 points of damage!
+ClapTrap Fraggi_3 takes 30 points of damage! Now has 70 hit Points.
+
+----Destroying----
+FragTrap newFraggi has been destroyed!
+ClapTrap newFraggi has been destroyed!
+FragTrap Fraggi_3 has been destroyed!
+ClapTrap Fraggi_3 has been destroyed!
+FragTrap Fraggi_2 has been destroyed!
+ClapTrap Fraggi_2 has been destroyed!
+FragTrap Fraggi_1 has been destroyed!
+ClapTrap Fraggi_1 has been destroyed!
+ClapTrap Clappi_2 has been destroyed!
+ClapTrap Clappi_1 has been destroyed!

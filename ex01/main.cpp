@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 21:39:33 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/24 22:06:06 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 	ScavTrap	Scavvi_2("Scavvi_2");
 	ScavTrap	Scavvi_3("Scavvi_3");
 
-	std::cout << "\n----" << "Scavvi_1 attacks Clappi_1: 50 times" << "----" << std::endl;
+	std::cout << "\n----" << "Scavvi_1 attacks Clappi_1: 51 times" << "----" << std::endl;
 	for (int i = 0; i <= 51; i++)
 	{
 		Scavvi_2.attack("Clappi_1");
@@ -36,7 +36,6 @@ int main(void)
 	Scavvi_2.takeDamage(Scavvi_1.getAttackDamage());
 
 	std::cout << "\n----" << "Scavvi_1 and Scavvi_2 getting repaired" << "----" << std::endl;
-	Scavvi_1.beRepaired(10);
 	Scavvi_2.beRepaired(2);
 	Scavvi_1.takeDamage(40);
 	Scavvi_1.beRepaired(10);
@@ -56,7 +55,7 @@ int main(void)
 	Scavvi_3.guardGate();
 
 	std::cout << "\n----" << "Tests for virtual functions" << "----" << std::endl;
-	std::cout << "Clappi_ptr = new ScavTrap(\"newScavvi\");\n" << std::endl;
+	std::cout << "-Clappi_ptr = new ScavTrap(\"newScavvi\");-" << std::endl;
 	ClapTrap	*Clappi_ptr = NULL;
 	try
 	{

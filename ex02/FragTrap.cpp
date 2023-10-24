@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:53:20 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 20:37:39 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/24 21:59:30 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	FragTrap::attack(const std::string& target)
 {
 	if (!this->isAlive(FRAG_TRAP_TYPE) || !this->hasEnergy(FRAG_TRAP_TYPE))
 	{
-		std::cout << FRAG_TRAP_TYPE << this->_name << " can't attack." << std::endl;
+		std::cout << " Can't attack." << std::endl;
 		return ;
 	}
 	std::cout << FRAG_TRAP_TYPE << this->_name << " attacks " << target;
@@ -70,7 +70,7 @@ void	FragTrap::highFivesGuys()
 {
 	if (!this->isAlive(FRAG_TRAP_TYPE) || !this->hasEnergy(FRAG_TRAP_TYPE))
 	{
-		std::cout << FRAG_TRAP_TYPE << this->_name << " can't high five." << std::endl;
+		std::cout << " Can't high five." << std::endl;
 		return ;
 	}
 	std::cout << FRAG_TRAP_TYPE << this->_name << " high five guys." << std::endl;
