@@ -1,35 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ScavTrap.hpp                                       :+:      :+:    :+:   */
+/*   DiamondTrap.hpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/18 10:12:10 by cmenke           ###   ########.fr       */
+/*   Created: 2023/10/18 10:09:14 by cmenke            #+#    #+#             */
+/*   Updated: 2023/10/25 15:07:57 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SCAV_TRAP_HPP
-# define SCAV_TRAP_HPP
+#ifndef DIAMOND_TRAP_HPP
+# define DIAMOND_TRAP_HPP
 
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
-#define SCAV_TRAP_TYPE "ScavTrap "
+#define DIAMOND_TRAP_TYPE "DiamondTrap "
 
-class ScavTrap : virtual public ClapTrap
+class DiamondTrap : public ScavTrap, public FragTrap
 {
 	public:
-		ScavTrap(void);
-		ScavTrap(const std::string name);
-		ScavTrap(const ScavTrap& src);
-		virtual ~ScavTrap(void);
+		DiamondTrap(void);
+		DiamondTrap(const std::string name);
+		DiamondTrap(const DiamondTrap& src);
+		~DiamondTrap(void);
 
-		ScavTrap& operator=(const ScavTrap& copy);
-
+		DiamondTrap& operator=(const DiamondTrap& copy);
+		
 		void attack(const std::string& target);
-		void guardGate();
-	
+		void whoAmI(void);
+
+	private:
+		std::string		_name;
 };
 
-#endif //SCAV_TRAP_HPP
+#endif /* DIAMOND_TRAP_HPP */

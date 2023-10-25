@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 20:42:05 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/25 15:05:42 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 #include <limits>
 
 #define CLAP_TRAP_TYPE "ClapTrap "
+
 class ClapTrap
 {
 	public:

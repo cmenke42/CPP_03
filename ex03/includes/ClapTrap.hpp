@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 20:33:25 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/25 15:05:37 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 #include <limits>
 
 #define CLAP_TRAP_TYPE "ClapTrap "
+
 class ClapTrap
 {
 	public:
@@ -42,7 +43,6 @@ class ClapTrap
 
 		bool			isAlive(const std::string robotType) const;
 		bool			hasEnergy(const std::string robotType) const;
-
 };
 
-#endif //CLAP_TRAP_HPP
+#endif /* CLAP_TRAP_HPP */

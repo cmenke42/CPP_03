@@ -12,7 +12,7 @@
 
 #include "DiamondTrap.hpp"
 
-DiamondTrap::DiamondTrap(void) : ClapTrap(), ScavTrap(), FragTrap()
+DiamondTrap::DiamondTrap(void) : ClapTrap("DiamondTrap_clap_name"), ScavTrap(), FragTrap()
 {
 	this->_hitPoints = 100;
 	this->_energyPoints = 50;
@@ -48,12 +48,12 @@ DiamondTrap&	DiamondTrap::operator=(const DiamondTrap& rhs)
 	std::cout << DIAMOND_TRAP_TYPE << this->DiamondTrap::_name << " assignemnt operator called" << std::endl;
 	if(this == &rhs)
 		return (*this);
-	ClapTrap::_name = rhs.ClapTrap::_name;
+	this->ClapTrap::_name = rhs.ClapTrap::_name;
+	this->DiamondTrap::_name = rhs.DiamondTrap::_name;
 	this->_hitPoints = rhs._hitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = this->_maxHitPoints;
-	DiamondTrap::_name = rhs.DiamondTrap::_name;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 
@@ -64,5 +64,10 @@ void	DiamondTrap::attack(const std::string& target)
 
 void	DiamondTrap::whoAmI(void)
 {
+	if (!this->isAlive(DIAMOND_TRAP_TYPE) || !this->hasEnergy(DIAMOND_TRAP_TYPE))
+	{
+		std::cout << " Can't answer whoAmI..." << std::endl;
+		return ;
+	}
 	std::cout << DIAMOND_TRAP_TYPE << this->DiamondTrap::_name << " has the ClapTrap name " << this->ClapTrap::_name << std::endl;
 }

@@ -6,7 +6,7 @@
 #    By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/05 18:54:58 by cmenke            #+#    #+#              #
-#    Updated: 2023/10/24 19:28:00 by cmenke           ###   ########.fr        #
+#    Updated: 2023/10/25 15:21:23 by cmenke           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,16 +22,26 @@ SRCS := main.cpp \
 
 OBJS := $(patsubst %.cpp, ${OBJDIR}/%.o, ${SRCS})
 
-HEADER := ClapTrap.hpp ScavTrap.hpp FragTrap.hpp DiamondTrap.hpp
+HEADER := $(addprefix includes/, ClapTrap.hpp \
+								ScavTrap.hpp \
+								FragTrap.hpp \
+								DiamondTrap.hpp)
+
+INCLUDES := -I includes
 
 #Production flags
-# CXXFLAGS := -Wall -Wextra -Werror -std=c++98 -pedantic
+CXXFLAGS := -Wall -Wextra -Werror -std=c++98 -pedantic
+CXXFLAGS += -Wno-shadow
 
 #Development flags
-CXXFLAGS := -Wall -Wextra -std=c++98 -pedantic -g -O0
+# CXXFLAGS := -Wall -Wextra -std=c++98 -pedantic -g -O0
 # CXXFLAGS += -g -O0
 # CXXFLAGS += -fsanitize=thread
 # CXXFLAGS += -fsanitize=address
+# CXXFLAGS += -Wshadow
+
+#Add includes
+CXXFLAGS += ${INCLUDES}
 
 CXX := c++
 

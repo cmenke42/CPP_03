@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:53:20 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/17 19:54:11 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/25 15:18:04 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ ScavTrap&	ScavTrap::operator=(const ScavTrap& rhs)
 	this->_hitPoints = rhs._hitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = this->_maxHitPoints;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 
@@ -58,7 +58,7 @@ void	ScavTrap::attack(const std::string& target)
 {
 	if (!this->isAlive(SCAV_TRAP_TYPE) || !this->hasEnergy(SCAV_TRAP_TYPE))
 	{
-		std::cout << SCAV_TRAP_TYPE << this->_name << " can't attack." << std::endl;
+		std::cout << " Can't attack." << std::endl;
 		return ;
 	}
 	std::cout << SCAV_TRAP_TYPE << this->_name << " attacks " << target;
@@ -70,7 +70,7 @@ void	ScavTrap::guardGate()
 {
 	if (!this->isAlive(SCAV_TRAP_TYPE) || !this->hasEnergy(SCAV_TRAP_TYPE))
 	{
-		std::cout << SCAV_TRAP_TYPE << this->_name << " can't guard the gate." << std::endl;
+		std::cout << " Can't guard the gate." << std::endl;
 		return ;
 	}
 	std::cout << SCAV_TRAP_TYPE << this->_name << " is now in Gate keeper mode." << std::endl;
