@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/25 15:07:25 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/26 15:54:37 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ class ScavTrap : virtual public ClapTrap
 
 		virtual void attack(const std::string& target);
 		void guardGate();
+	protected:
+		unsigned int	_energyPoints;
 };
 
 #endif /* SCAV_TRAP_HPP */

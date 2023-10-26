@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:53:20 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/25 15:18:04 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/26 17:18:44 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,18 +15,20 @@
 ScavTrap::ScavTrap(void) : ClapTrap()
 {
 	this->_hitPoints = 100;
-	this->_energyPoints = 50;
-	this->_attackDamage = 20;
 	this->_maxHitPoints = this->_hitPoints;
+	this->ScavTrap::_energyPoints = 50;
+	this->ClapTrap::_energyPoints = this->ScavTrap::_energyPoints;
+	this->_attackDamage = 20;
 	std::cout << SCAV_TRAP_TYPE << " has been created! - Default" << std::endl;
 }
 
 ScavTrap::ScavTrap(const std::string name) : ClapTrap(name)
 {
 	this->_hitPoints = 100;
-	this->_energyPoints = 50;
-	this->_attackDamage = 20;
 	this->_maxHitPoints = this->_hitPoints;
+	this->ScavTrap::_energyPoints = 50;
+	this->ClapTrap::_energyPoints = this->ScavTrap::_energyPoints;
+	this->_attackDamage = 20;
 	std::cout << SCAV_TRAP_TYPE << name << " has been created! - Name Constructor" << std::endl;
 }
 
@@ -48,9 +50,9 @@ ScavTrap&	ScavTrap::operator=(const ScavTrap& rhs)
 		return (*this);
 	this->_name = rhs._name;
 	this->_hitPoints = rhs._hitPoints;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 
@@ -63,7 +65,7 @@ void	ScavTrap::attack(const std::string& target)
 	}
 	std::cout << SCAV_TRAP_TYPE << this->_name << " attacks " << target;
 	std::cout << " causing " << this->_attackDamage << " points of damage!" << std::endl;
-	this->_energyPoints--;
+	this->ClapTrap::_energyPoints--;
 }
 
 void	ScavTrap::guardGate()
@@ -74,5 +76,5 @@ void	ScavTrap::guardGate()
 		return ;
 	}
 	std::cout << SCAV_TRAP_TYPE << this->_name << " is now in Gate keeper mode." << std::endl;
-	this->_energyPoints--;
+	this->ClapTrap::_energyPoints--;
 }

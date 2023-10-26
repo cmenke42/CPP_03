@@ -6,7 +6,7 @@
 #    By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/05 18:54:58 by cmenke            #+#    #+#              #
-#    Updated: 2023/10/25 15:21:23 by cmenke           ###   ########.fr        #
+#    Updated: 2023/10/26 15:57:43 by cmenke           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,7 @@ CXXFLAGS += -Wno-shadow
 # CXXFLAGS := -Wall -Wextra -std=c++98 -pedantic -g -O0
 # CXXFLAGS += -g -O0
 # CXXFLAGS += -fsanitize=thread
-# CXXFLAGS += -fsanitize=address
+CXXFLAGS += -fsanitize=address
 # CXXFLAGS += -Wshadow
 
 #Add includes

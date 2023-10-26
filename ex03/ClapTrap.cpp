@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 20:11:59 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/26 17:17:13 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,9 +44,9 @@ ClapTrap&	ClapTrap::operator=(const ClapTrap& rhs)
 		return (*this);
 	this->_name = rhs._name;
 	this->_hitPoints = rhs._hitPoints;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 

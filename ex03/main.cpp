@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/25 15:32:56 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/26 16:00:04 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 	DiamondTrap	Dia_2("Dia_2");
 	DiamondTrap	Dia_3("Dia_3");
 
-	std::cout << "\n----" << "Dia_2 attacks Clappi_1: 101 times" << "----" << std::endl;
+	std::cout << "\n----" << "Dia_2 attacks Clappi_1: 51 times" << "----" << std::endl;
 	for (int i = 0; i <= 51; i++)
 	{
 		Dia_2.attack("Clappi_1");

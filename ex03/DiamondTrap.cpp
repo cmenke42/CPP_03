@@ -14,20 +14,14 @@
 
 DiamondTrap::DiamondTrap(void) : ClapTrap("DiamondTrap_clap_name"), ScavTrap(), FragTrap()
 {
-	this->_hitPoints = 100;
-	this->_energyPoints = 50;
-	this->_attackDamage = 30;
-	this->_maxHitPoints = this->_hitPoints;
+	this->ClapTrap::_energyPoints = this->ScavTrap::_energyPoints;
 	this->DiamondTrap::_name = "DiamondTrap";
 	std::cout << DIAMOND_TRAP_TYPE << " has been created! - Default" << std::endl;
 }
 
 DiamondTrap::DiamondTrap(const std::string name) : ClapTrap(name + "_clap_name"), ScavTrap(name), FragTrap(name)
 {
-	this->_hitPoints = 100;
-	this->_energyPoints = 50;
-	this->_attackDamage = 30;
-	this->_maxHitPoints = this->_hitPoints;
+	this->ClapTrap::_energyPoints = this->ScavTrap::_energyPoints;
 	this->DiamondTrap::_name = name;
 	std::cout << DIAMOND_TRAP_TYPE << name << " has been created! - Name Constructor" << std::endl;
 }
@@ -51,7 +45,8 @@ DiamondTrap&	DiamondTrap::operator=(const DiamondTrap& rhs)
 	this->ClapTrap::_name = rhs.ClapTrap::_name;
 	this->DiamondTrap::_name = rhs.DiamondTrap::_name;
 	this->_hitPoints = rhs._hitPoints;
-	this->_energyPoints = rhs._energyPoints;
+	this->ClapTrap::_energyPoints = rhs.ClapTrap::_energyPoints;
+	this->ScavTrap::_energyPoints = rhs.ScavTrap::_energyPoints;
 	this->_attackDamage = rhs._attackDamage;
 	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
