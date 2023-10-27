@@ -8,7 +8,7 @@ ScavTrap Scavvi_2 has been created! - Name Constructor
 ClapTrap Scavvi_3 has been created! - Name Constructor
 ScavTrap Scavvi_3 has been created! - Name Constructor
 
-----Scavvi_1 attacks Clappi_1: 51 times----
+----Scavvi_1 attacks Clappi_1: 52 times----
 ScavTrap Scavvi_2 attacks Clappi_1 causing 20 points of damage!
 ClapTrap Clappi_1 takes 20 points of damage! Now has 0 hit Points.
 

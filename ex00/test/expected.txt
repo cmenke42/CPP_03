@@ -1,4 +1,4 @@
-----Constructing ClapTraps----
+----Constructing----
 ClapTrap Clappi_1 has been created! - Name Constructor
 ClapTrap Clappi_2 has been created! - Name Constructor
 ClapTrap Clappi_3 has been created! - Name Constructor
@@ -44,7 +44,7 @@ ClapTrap Clappi_3 heals 4294967295 points! Now has 10 hit points
 ClapTrap Clappi_3 takes 4294967295 points of damage! Now has 0 hit Points.
 ClapTrap Clappi_3 is already dead! Can't be repaired.
 
-----Destroying ClapTraps----
+----Destroying----
 ClapTrap Clappi_3 has been destroyed!
 ClapTrap Clappi_2 has been destroyed!
 ClapTrap Clappi_1 has been destroyed!

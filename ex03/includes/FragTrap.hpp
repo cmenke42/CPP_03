@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:52:42 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/26 15:54:21 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 19:21:43 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@ class FragTrap : virtual public ClapTrap
 
 		FragTrap& operator=(const FragTrap& copy);
 
-		virtual void attack(const std::string& target);
-		void highFivesGuys(void);
+		virtual void	attack(const std::string& target);
+		void			highFivesGuys(void);
 };
 
 #endif /* FRAG_TRAP_HPP */

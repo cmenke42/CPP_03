@@ -45,10 +45,10 @@ DiamondTrap&	DiamondTrap::operator=(const DiamondTrap& rhs)
 	this->ClapTrap::_name = rhs.ClapTrap::_name;
 	this->DiamondTrap::_name = rhs.DiamondTrap::_name;
 	this->_hitPoints = rhs._hitPoints;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	this->ClapTrap::_energyPoints = rhs.ClapTrap::_energyPoints;
 	this->ScavTrap::_energyPoints = rhs.ScavTrap::_energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 

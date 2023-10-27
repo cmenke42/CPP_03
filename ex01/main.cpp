@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 22:06:06 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 18:29:19 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 	ScavTrap	Scavvi_2("Scavvi_2");
 	ScavTrap	Scavvi_3("Scavvi_3");
 
-	std::cout << "\n----" << "Scavvi_1 attacks Clappi_1: 51 times" << "----" << std::endl;
+	std::cout << "\n----" << "Scavvi_1 attacks Clappi_1: 52 times" << "----" << std::endl;
 	for (int i = 0; i <= 51; i++)
 	{
 		Scavvi_2.attack("Clappi_1");
@@ -63,16 +63,18 @@ int main(void)
 	}
 	catch(const std::exception& e)
 	{
-		std::cerr << e.what() << '\n';
+		std::cout << "Couldn't create new ScavTrap:"
+		<< "because " << e.what() << std::endl;
 	}
 	if (Clappi_ptr)
 	{
 		Clappi_ptr->attack("Scavvi_3");
 		Scavvi_3.takeDamage(Clappi_ptr->getAttackDamage());
+		std::cout << "\n----" << "Destroying" << "----" << std::endl;
+		delete Clappi_ptr;
 	}
-
-	std::cout << "\n----" << "Destroying" << "----" << std::endl;
-	delete Clappi_ptr;
+	else
+		std::cout << "\n----" << "Destroying" << "----" << std::endl;
 
 	return (0);
 }

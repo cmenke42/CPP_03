@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:26 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 22:05:58 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 19:10:17 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int main(void)
 	FragTrap	Fraggi_2("Fraggi_2");
 	FragTrap	Fraggi_3("Fraggi_3");
 
-	std::cout << "\n----" << "Fraggi_1 attacks Clappi_1: 101 times" << "----" << std::endl;
+	std::cout << "\n----" << "Fraggi_1 attacks Clappi_1: 102 times" << "----" << std::endl;
 	for (int i = 0; i <= 101; i++)
 	{
 		Fraggi_2.attack("Clappi_1");
@@ -64,16 +64,19 @@ int main(void)
 	}
 	catch(const std::exception& e)
 	{
-		std::cerr << e.what() << '\n';
+		std::cout << "Couldn't create new FragTrap:"
+		<< "because " << e.what() << std::endl;
 	}
 	if (Clappi_ptr)
 	{
 		Clappi_ptr->attack("Fraggi_3");
 		Fraggi_3.takeDamage(Clappi_ptr->getAttackDamage());
+		std::cout << "\n----" << "Destroying" << "----" << std::endl;
+		delete Clappi_ptr;
+		std::cout << std::endl;
 	}
-
-	std::cout << "\n----" << "Destroying" << "----" << std::endl;
-	delete Clappi_ptr;
+	else
+		std::cout << "\n----" << "Destroying" << "----" << std::endl;
 
 	return (0);
 }

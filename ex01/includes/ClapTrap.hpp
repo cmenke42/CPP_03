@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:01:34 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/24 20:42:05 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 18:27:15 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,9 @@ class ClapTrap
 	protected:
 		std::string		_name;
 		unsigned int	_hitPoints;
+		unsigned int	_maxHitPoints;
 		unsigned int	_energyPoints;
 		unsigned int	_attackDamage;
-		unsigned int	_maxHitPoints;
 
 		bool			isAlive(const std::string robotType) const;
 		bool			hasEnergy(const std::string robotType) const;

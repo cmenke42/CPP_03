@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:53:20 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/25 15:17:31 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 18:28:50 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,18 +15,18 @@
 ScavTrap::ScavTrap(void) : ClapTrap()
 {
 	this->_hitPoints = 100;
+	this->_maxHitPoints = this->_hitPoints;
 	this->_energyPoints = 50;
 	this->_attackDamage = 20;
-	this->_maxHitPoints = this->_hitPoints;
 	std::cout << SCAV_TRAP_TYPE << " has been created! - Default" << std::endl;
 }
 
 ScavTrap::ScavTrap(const std::string name) : ClapTrap(name)
 {
 	this->_hitPoints = 100;
+	this->_maxHitPoints = this->_hitPoints;
 	this->_energyPoints = 50;
 	this->_attackDamage = 20;
-	this->_maxHitPoints = this->_hitPoints;
 	std::cout << SCAV_TRAP_TYPE << name << " has been created! - Name Constructor" << std::endl;
 }
 
@@ -48,9 +48,9 @@ ScavTrap&	ScavTrap::operator=(const ScavTrap& rhs)
 		return (*this);
 	this->_name = rhs._name;
 	this->_hitPoints = rhs._hitPoints;
+	this->_maxHitPoints = rhs._maxHitPoints;
 	this->_energyPoints = rhs._energyPoints;
 	this->_attackDamage = rhs._attackDamage;
-	this->_maxHitPoints = rhs._maxHitPoints;
 	return (*this);
 }
 

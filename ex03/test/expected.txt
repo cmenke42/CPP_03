@@ -1,0 +1,333 @@
+----Constructing----
+ClapTrap Clappi_1 has been created! - Name Constructor
+ClapTrap Clappi_2 has been created! - Name Constructor
+ClapTrap Dia_1_clap_name has been created! - Name Constructor
+ScavTrap Dia_1 has been created! - Name Constructor
+FragTrap Dia_1 has been created! - Name Constructor
+DiamondTrap Dia_1 has been created! - Name Constructor
+ClapTrap Dia_2_clap_name has been created! - Name Constructor
+ScavTrap Dia_2 has been created! - Name Constructor
+FragTrap Dia_2 has been created! - Name Constructor
+DiamondTrap Dia_2 has been created! - Name Constructor
+ClapTrap Dia_3_clap_name has been created! - Name Constructor
+ScavTrap Dia_3 has been created! - Name Constructor
+FragTrap Dia_3 has been created! - Name Constructor
+DiamondTrap Dia_3 has been created! - Name Constructor
+
+----Dia_2 attacks Clappi_1: 52 times----
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 takes 30 points of damage! Now has 0 hit Points.
+
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+ScavTrap Dia_2_clap_name attacks Clappi_1 causing 30 points of damage!
+ClapTrap Clappi_1 is already dead! Can't take any more damage.
+
+ScavTrap Dia_2_clap_name is out of energy! Can't attack.
+ScavTrap Dia_2_clap_name is out of energy! Can't attack.
+
+----Dia_1 attacks Dia_2: 1 time----
+ScavTrap Dia_1_clap_name attacks Dia_2 causing 30 points of damage!
+ClapTrap Dia_2_clap_name takes 30 points of damage! Now has 70 hit Points.
+
+----Dia_1 and Dia_2 getting repaired----
+ClapTrap Dia_2_clap_name is out of energy! Can't be repaired.
+ClapTrap Dia_1_clap_name takes 40 points of damage! Now has 60 hit Points.
+ClapTrap Dia_1_clap_name heals 10 points! Now has 70 hit points
+
+----Testing max values----
+ClapTrap Dia_1_clap_name heals 4294967295 points! Now has 100 hit points
+ClapTrap Dia_1_clap_name takes 4294967295 points of damage! Now has 0 hit Points.
+ClapTrap Dia_1_clap_name is already dead! Can't be repaired.
+
+----Dia_* specials----
+DiamondTrap Dia_1_clap_name is already dead! Can't answer whoAmI...
+DiamondTrap Dia_2_clap_name is out of energy! Can't answer whoAmI...
+DiamondTrap Dia_3 has the ClapTrap name Dia_3_clap_name
+
+FragTrap Dia_1_clap_name is already dead! Can't high five.
+FragTrap Dia_2_clap_name is out of energy! Can't high five.
+FragTrap Dia_3_clap_name high five guys.
+
+ScavTrap Dia_1_clap_name is already dead! Can't guard the gate.
+ScavTrap Dia_2_clap_name is out of energy! Can't guard the gate.
+ScavTrap Dia_3_clap_name is now in Gate keeper mode.
+
+----Tests for virtual functions----
+-Clappi_ptr = new DiamondTrap("newDia");-
+ClapTrap newDia_clap_name has been created! - Name Constructor
+ScavTrap newDia has been created! - Name Constructor
+FragTrap newDia has been created! - Name Constructor
+DiamondTrap newDia has been created! - Name Constructor
+ScavTrap newDia_clap_name attacks Dia_3 causing 30 points of damage!
+ClapTrap Dia_3_clap_name takes 30 points of damage! Now has 70 hit Points.
+
+----Destroying----
+DiamondTrap newDia has been destroyed!
+FragTrap newDia_clap_name has been destroyed!
+ScavTrap newDia_clap_name has been destroyed!
+ClapTrap newDia_clap_name has been destroyed!
+
+
+----Testing the Scavtrap----
+--Constructing--
+ClapTrap Clappi_4 has been created! - Name Constructor
+ClapTrap Scavvi_1 has been created! - Name Constructor
+ScavTrap Scavvi_1 has been created! - Name Constructor
+ClapTrap Scavvi_2 has been created! - Name Constructor
+ScavTrap Scavvi_2 has been created! - Name Constructor
+ClapTrap Scavvi_3 has been created! - Name Constructor
+ScavTrap Scavvi_3 has been created! - Name Constructor
+
+----Scavvi_1 attacks Clappi_4: 52 times----
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 takes 20 points of damage! Now has 0 hit Points.
+
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+ScavTrap Scavvi_2 attacks Clappi_4 causing 20 points of damage!
+ClapTrap Clappi_4 is already dead! Can't take any more damage.
+
+ScavTrap Scavvi_2 is out of energy! Can't attack.
+ScavTrap Scavvi_2 is out of energy! Can't attack.
+
+----Scavvi_1 attacks Scavvi_2: 1 time----
+ScavTrap Scavvi_1 attacks Scavvi_2 causing 20 points of damage!
+ClapTrap Scavvi_2 takes 20 points of damage! Now has 80 hit Points.
+
+----Scavvi_1 and Scavvi_2 getting repaired----
+ClapTrap Scavvi_2 is out of energy! Can't be repaired.
+ClapTrap Scavvi_1 takes 40 points of damage! Now has 60 hit Points.
+ClapTrap Scavvi_1 heals 10 points! Now has 70 hit points
+
+----Testing max values----
+ClapTrap Scavvi_1 heals 4294967295 points! Now has 100 hit points
+ClapTrap Scavvi_1 takes 4294967295 points of damage! Now has 0 hit Points.
+ClapTrap Scavvi_1 is already dead! Can't be repaired.
+
+----Scavvi_* guard gates----
+ScavTrap Scavvi_1 is already dead! Can't guard the gate.
+ScavTrap Scavvi_2 is out of energy! Can't guard the gate.
+ScavTrap Scavvi_3 is now in Gate keeper mode.
+ScavTrap Scavvi_3 is now in Gate keeper mode.
+
+----Tests for virtual functions----
+-Clappi_ptr_2 = new ScavTrap("newScavvi");-
+ClapTrap newScavvi has been created! - Name Constructor
+ScavTrap newScavvi has been created! - Name Constructor
+ScavTrap newScavvi attacks Scavvi_3 causing 20 points of damage!
+ClapTrap Scavvi_3 takes 20 points of damage! Now has 80 hit Points.
+
+----Destroying----
+ScavTrap newScavvi has been destroyed!
+ClapTrap newScavvi has been destroyed!
+
+ScavTrap Scavvi_3 has been destroyed!
+ClapTrap Scavvi_3 has been destroyed!
+ScavTrap Scavvi_2 has been destroyed!
+ClapTrap Scavvi_2 has been destroyed!
+ScavTrap Scavvi_1 has been destroyed!
+ClapTrap Scavvi_1 has been destroyed!
+ClapTrap Clappi_4 has been destroyed!
+DiamondTrap Dia_3 has been destroyed!
+FragTrap Dia_3_clap_name has been destroyed!
+ScavTrap Dia_3_clap_name has been destroyed!
+ClapTrap Dia_3_clap_name has been destroyed!
+DiamondTrap Dia_2 has been destroyed!
+FragTrap Dia_2_clap_name has been destroyed!
+ScavTrap Dia_2_clap_name has been destroyed!
+ClapTrap Dia_2_clap_name has been destroyed!
+DiamondTrap Dia_1 has been destroyed!
+FragTrap Dia_1_clap_name has been destroyed!
+ScavTrap Dia_1_clap_name has been destroyed!
+ClapTrap Dia_1_clap_name has been destroyed!
+ClapTrap Clappi_2 has been destroyed!
+ClapTrap Clappi_1 has been destroyed!

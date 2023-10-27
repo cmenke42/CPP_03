@@ -6,23 +6,21 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 21:27:58 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/26 17:17:13 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 18:16:01 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(void)
-		: _name("ClapTrap"), _hitPoints(10), _energyPoints(10), _attackDamage(0)
+		: _name("ClapTrap"), _hitPoints(10), _maxHitPoints(this->_hitPoints), _energyPoints(10), _attackDamage(0)
 {
-	this->_maxHitPoints = this->_hitPoints;
 	std::cout << CLAP_TRAP_TYPE << "has been created! - Default" << std::endl;
 }
 
 ClapTrap::ClapTrap(const std::string name)
-		: _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
+		: _name(name), _hitPoints(10), _maxHitPoints(this->_hitPoints), _energyPoints(10), _attackDamage(0)
 {
-	this->_maxHitPoints = this->_hitPoints;
 	std::cout << CLAP_TRAP_TYPE << this->_name << " has been created! - Name Constructor" << std::endl;
 }
 

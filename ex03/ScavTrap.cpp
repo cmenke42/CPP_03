@@ -6,7 +6,7 @@
 /*   By: cmenke <cmenke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 18:53:20 by cmenke            #+#    #+#             */
-/*   Updated: 2023/10/26 17:18:44 by cmenke           ###   ########.fr       */
+/*   Updated: 2023/10/27 19:21:16 by cmenke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,8 @@ ScavTrap&	ScavTrap::operator=(const ScavTrap& rhs)
 	this->_name = rhs._name;
 	this->_hitPoints = rhs._hitPoints;
 	this->_maxHitPoints = rhs._maxHitPoints;
-	this->_energyPoints = rhs._energyPoints;
+	this->ClapTrap::_energyPoints = rhs.ClapTrap::_energyPoints;
+	this->ScavTrap::_energyPoints = rhs.ScavTrap::_energyPoints;
 	this->_attackDamage = rhs._attackDamage;
 	return (*this);
 }
